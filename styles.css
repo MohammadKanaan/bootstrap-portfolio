@@ -42,11 +42,11 @@ body {
   margin-top: 100px;
   transition: 1s;
 } */
-#projects .col{
+#projects .col {
   height: 400px;
 }
 
-#projects .card{
+#projects .card {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #e5beec;
@@ -64,24 +64,26 @@ body {
   height: 100%;
 }
 
-#project-title h3{
+#project-title h3 {
   color: aliceblue;
 }
 
-#projects button{
+#projects button {
   width: 12em;
 }
 
-#projects .col:hover #project-title{
+#projects .col:hover #project-title {
   right: 0;
 }
 
-#resume p{
+#resume p {
   font-size: 1.5rem;
   color: #e5beec;
 }
 
-#about-me h2,#resume h2,#contact-me h2{
+#about-me h2,
+#resume h2,
+#contact-me h2 {
   color: #fde2f3;
   font-family: "Libre Baskerville", serif;
   font-family: "League Script", cursive;
@@ -89,36 +91,39 @@ body {
   font-size: 5rem;
 }
 
-#about-me p{
+#about-me p {
   font-size: 2rem;
   color: #e5beec;
 }
-#contact-me img{
+#contact-me img {
   width: 100%;
   object-fit: contain;
 }
-#contact-me svg{
+#contact-me svg {
   width: 2em;
   height: 2em;
 }
 
-@media(min-width:1200px) {
-  #projects .col{
+#contact-me a {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  #projects .col {
     height: 300px;
   }
-  #contact-me svg{
+  #contact-me svg {
     width: 3em;
     height: 3em;
   }
-
 }
 
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
   #navbar {
     background-color: #2a2f4f;
   }
 }
-@media(max-width:768px) {
+@media (max-width: 768px) {
   #moon {
     height: 100px;
     width: auto;
@@ -127,43 +132,45 @@ body {
   #logo {
     height: 200px;
   }
-  h1{
+  h1 {
     font-size: 3rem;
   }
-  #about-me p{
+  #about-me p {
     font-size: 1.25rem;
   }
 }
 
 /* to separate the parts but also have the space be part of the section */
-section{
+section {
   padding-top: 200px;
 }
-#home{
+#home {
   padding-top: 100px;
 }
 
-#buttons{
+#buttons {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
-.dotted-line{
+.dotted-line {
   width: 40%;
   height: auto;
 }
-#footer a,p{
+#footer a,
+p {
   color: #fde2f3;
 }
-#footer a:hover{
+#footer a:hover {
   color: #e5beec;
 }
 
-#navbar a,p{
+#navbar a,
+p {
   color: #fde2f3;
 }
-#navbar a:hover{
+#navbar a:hover {
   color: #e5beec;
 }
