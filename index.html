@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Script&family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mohammad Kanaan</title>
+  </head>
+
+  <body>
+    <nav
+      class="navbar sticky-top navbar-expand-xl navbar-dark bg-transparent"
+      aria-label="Sixth navbar example"
+    >
+      <div id="navbar" class="container-fluid">
+        <a class="navbar-brand" href="#top">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample06"
+          aria-controls="navbarsExample06"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample06">
+          <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#top"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-me">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home">
+      <img
+        id="moon"
+        src="./images/moon illustration no bg.png"
+        alt="moon illustration"
+      />
+      <div class="container text-center">
+        <h1>I'm Mohammad</h1>
+        <h2>a Developer</h2>
+        <img
+          src="./images/Code Logo.png"
+          alt="Code logo placeholder for logo"
+          id="logo"
+          class="rounded mt-2"
+        />
+        <div>
+          <img
+            src="./images/dotted line big.png"
+            alt="dotted line 1"
+            class="dotted-line"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="hero">
+      <div class="container text-center">
+        <img
+          src="./images/wizard cat small.jpeg"
+          alt="wizard cat placeholder for profile picture"
+          id="pfp"
+          class="rounded-circle my-5"
+        />
+        <h2>Hello There</h2>
+        <p class="fs-3 rounded">
+          I'm a developer and designer interested in Web Development. I like
+          cats and music too :) <br />
+          <!-- You might be able to tell I like purple -->
+        </p>
+        <img
+          src="./images/dotted line big.png"
+          alt="dotted line 1"
+          class="dotted-line"
+        />
+      </div>
+    </section>
+
+    <section id="resume">
+      <div class="container col">
+        <div class="row">
+          <div class="col-xl-4 col-sm-12 text-center">
+            <h2>Resume</h2>
+          </div>
+          <div class="col-xl-8 col-sm-12">
+            <p>
+              <span style="font-weight: bold">Education: </span> Computer
+              Science Student <br />
+              <span style="font-weight: bold">Skills: </span>
+              <span
+                class="badge bg-info-subtle border border-info-subtle text-info-emphasis rounded-pill"
+                >HTML</span
+              >
+              <span
+                class="badge bg-info-subtle border border-info-subtle text-info-emphasis rounded-pill"
+                >CSS</span
+              >
+              <span
+                class="badge bg-info-subtle border border-info-subtle text-info-emphasis rounded-pill"
+                >SQL</span
+              >
+              <span
+                class="badge bg-info-subtle border border-info-subtle text-info-emphasis rounded-pill"
+                >Python</span
+              >
+              <span
+                class="badge bg-info-subtle border border-info-subtle text-info-emphasis rounded-pill"
+                >Java</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container px-4 py-5 text-center id="custom-cards">
+      <h2 class="pb-2 border-bottom">My Projects</h2>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('./images/projects/tindog.jpg')"
+          >
+            <div
+              id="project-title"
+              class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1"
+            >
+              <h3 class="display-6 lh-1 fw-bold">Tindog</h3>
+              <a
+                href="https://mohammadkanaan.github.io/tindog-sample-project/"
+                ><button class="btn btn-dark">Visit</button></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('./images/projects/password-manager.png')"
+          >
+            <div
+              id="project-title"
+              class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1"
+            >
+              <h3 class="display-6 lh-1 fw-bold">Password Manager</h3>
+              <a href="https://github.com/MohammadKanaan/password_manager"
+                ><button class="btn btn-dark">Visit</button></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('./images/projects/movies.jpg')"
+          >
+            <div
+              id="project-title"
+              class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1"
+            >
+              <h3 class="display-6 lh-1 fw-bold">Movie Ranking Website</h3>
+              <a
+                href="https://mohammadkanaan.github.io/html-portfolio/public/movie-ranking.html"
+                ><button class="btn btn-dark">Visit</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./images/dotted line big.png"
+        alt="dotted line 1"
+        class="dotted-line"
+      />
+    </section>
+
+    <section id="about-me">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-xl-4 col-sm-12 text-center">
+            <h2>About Me</h2>
+          </div>
+          <div class="col-xl-8 col-sm-12">
+            <p>
+              I started learning to code when I was 13 years old because I
+              wanted to make my own video games which I did for a while. Over
+              time, I have gained a wealth of experience designing and
+              developing desktop and web applications.
+              <br /><br />
+              I'm passionate about computers and the web, and I like to
+              translate that passion into products to present to the world.
+            </p>
+          </div>
+        </div>
+        <img
+          src="./images/dotted line big.png"
+          alt="dotted line 1"
+          class="dotted-line"
+        />
+      </div>
+    </section>
+
+    <section id="contact-me">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-sm-12 text-center">
+            <h2>Contact Me</h2>
+            <p>Let's talk about Web Design</p>
+            <div id="buttons">
+              <a href="https://github.com/MohammadKanaan"
+                ><button type="button" class="btn btn-dark">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                    ></path>
+                  </svg>
+                  Github
+                </button></a
+              ><a href="https://www.linkedin.com/in/mohammad-kanaan-92a30a225/"
+                ><button type="button" class="btn btn-primary">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-linkedin"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"
+                    ></path>
+                  </svg>
+                  LinkedIn
+                </button></a
+              >
+              <a href="mailto:mohammadkanaan.me@gmail.com">
+                <button type="button" class="btn btn-danger">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-google"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"
+                    ></path>
+                  </svg>
+                  Gmail
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-6 col-sm-12">
+            <img src="./images/wizard cat small.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#home" class="nav-link px-2">Home</a></li>
+            <li class="nav-item"><a href="#hero" class="nav-link px-2 ">Introduction</a></li>
+            <li class="nav-item"><a href="#resume" class="nav-link px-2 ">Resume</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link px-2 ">Projects</a></li>
+            <li class="nav-item"><a href="#about-me" class="nav-link px-2 ">About Me</a></li>
+            <li class="nav-item"><a href="#contact-me" class="nav-link px-2 ">Contact Me</a></li>
+          </ul>
+          <p class="text-center">© 2023 Company, Inc</p>
+        </footer>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

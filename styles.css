@@ -1,0 +1,169 @@
+h1 {
+  text-align: center;
+  color: #fde2f3;
+  font-family: "Libre Baskerville", serif;
+  font-family: "League Script", cursive;
+  font-weight: bold;
+  font-size: 4rem;
+}
+h2 {
+  color: #fde2f3;
+}
+body {
+  background-color: #2a2f4f;
+}
+#moon {
+  height: 200px;
+  width: auto;
+  float: right;
+}
+
+#logo {
+  height: 400px;
+}
+#pfp {
+  height: 200px;
+}
+#hero {
+  margin-top: 200px;
+}
+#hero p {
+  color: #2a2f4f;
+  background-color: #e5beec;
+  padding: 10px;
+}
+
+/* #project-title {
+  position: relative;
+  right: -200%;
+  text-align: center;
+  background-color: aliceblue;
+  color: black;
+  margin-top: 100px;
+  transition: 1s;
+} */
+#projects .col{
+  height: 400px;
+}
+
+#projects .card{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #e5beec;
+}
+
+#project-title {
+  position: relative;
+  right: -200%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(106, 183, 250, 0.25);
+  color: black;
+  backdrop-filter: blur(10px);
+  transition: 1s;
+  height: 100%;
+}
+
+#project-title h3{
+  color: aliceblue;
+}
+
+#projects button{
+  width: 12em;
+}
+
+#projects .col:hover #project-title{
+  right: 0;
+}
+
+#resume p{
+  font-size: 1.5rem;
+  color: #e5beec;
+}
+
+#about-me h2,#resume h2,#contact-me h2{
+  color: #fde2f3;
+  font-family: "Libre Baskerville", serif;
+  font-family: "League Script", cursive;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+#about-me p{
+  font-size: 2rem;
+  color: #e5beec;
+}
+#contact-me img{
+  width: 100%;
+  object-fit: contain;
+}
+#contact-me svg{
+  width: 2em;
+  height: 2em;
+}
+
+@media(min-width:1200px) {
+  #projects .col{
+    height: 300px;
+  }
+  #contact-me svg{
+    width: 3em;
+    height: 3em;
+  }
+
+}
+
+@media (max-width:1200px) {
+  #navbar {
+    background-color: #2a2f4f;
+  }
+}
+@media(max-width:768px) {
+  #moon {
+    height: 100px;
+    width: auto;
+    float: right;
+  }
+  #logo {
+    height: 200px;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  #about-me p{
+    font-size: 1.25rem;
+  }
+}
+
+/* to separate the parts but also have the space be part of the section */
+section{
+  padding-top: 200px;
+}
+#home{
+  padding-top: 100px;
+}
+
+#buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.dotted-line{
+  width: 40%;
+  height: auto;
+}
+#footer a,p{
+  color: #fde2f3;
+}
+#footer a:hover{
+  color: #e5beec;
+}
+
+#navbar a,p{
+  color: #fde2f3;
+}
+#navbar a:hover{
+  color: #e5beec;
+}
